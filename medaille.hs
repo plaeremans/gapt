@@ -53,8 +53,8 @@ main = do
      kwart 250  (reverse degs1) (list_gen  (360) (18) 5) "THIJS"
 
      
-     where degs1 = list_gen 9 18 5
-           degs2 = list_gen (-9) (-18) 5
+     where degs1 = list_gen 15 15 5
+           degs2 = list_gen (-15) (-15) 5
            negentig_naar_nul = (list_gen  90.0 (-18) 5)
            nul_naar_min_negentig = (list_gen  0 (-18) 5)
            
